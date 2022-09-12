@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="content">
+		<header>
+			<div class="topnav">
+              <a href="index.html">Home</a>
+              <a href="hobbies.html">Hobbies</a>
+              <a href="about.html">About</a>
+              <a class="active" href="contact.html">Contact</a>
+            </div>
+		</header>
+        <h3>Contact Me</h3>
+            <p>Would you like to contact me?<br>
+            Great, then please fill out the form below and I'll get back to you as quickly as possible.</p>
+
+            <form action="mailto:vladtaltos@gmail.com subject=Vladtaltos.com Contact Message" method="post" enctype="text/plain">
+                <table>
+                    <tr>
+                        <td><label for="name">Your Name: </label></td>
+                        <td><input type="text" id="name" name="name" placeholder="your name" size="31"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Your Email Address: </label>                            
+                        </td>
+                        <td>
+                            <input type="text" id="email" name="email" placeholder="your email address" size="31">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Your Message: </label>                            
+                        </td>
+                        <td>
+                            <textarea name="message" id="message" cols="30" rows="10" name="message" placeholder="type your message here"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button>Submit</button></td>
+                    </tr>                  
+                </table>
+
+            </form>
+        <footer>
+            <center><p>&copy;2022 By Gary Hobbs</p></center>
+        </footer>
+    </div>
+</body>
+
+</html>
