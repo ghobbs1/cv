@@ -35,5 +35,5 @@ body {
   color: white;
 }
 .resizedTextbox {
-    .resizedTextbox {width: 500px; height: 20px; padding: 1px}
+    width: 500px; height: 20px; padding: 1px;
 }
